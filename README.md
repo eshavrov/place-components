@@ -10,6 +10,6 @@ Description will be added soon
 
 ```
 yarn
-yarn storybook
+yarn dev
 
 ```
