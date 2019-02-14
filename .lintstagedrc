@@ -1,0 +1,7 @@
+{
+    "*.js": [
+      "yarn lint",
+      "yarn prettier-eslint --single-quote --trailing-comma es5 --write",
+      "git add"
+    ]
+  }

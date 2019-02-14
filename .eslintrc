@@ -1,0 +1,107 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["react", "jsx-a11y", "import"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "arrow-body-style": "off",
+    "curly": ["error", "all"],
+    "class-methods-use-this": "warn",
+    "consistent-return": "off",
+    "brace-style": "error",
+    "default-case": ["error", { "commentPattern": "^default\\sis\\sredundant" }],
+    "function-paren-newline": ["error", "consistent"],
+    "implicit-arrow-linebreak": ["error", "beside"],
+    "key-spacing": "error",
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "no-constant-condition": "error",
+    "no-continue": "off",
+    "no-else-return": ["error", { "allowElseIf": true }],
+    "no-plusplus": "off",
+    "no-restricted-syntax": [
+      "error",
+      { "selector": "MethodDefinition[kind='set']", "message": "Property setters are not allowed" },
+      { "selector": "MethodDefinition[kind='get']", "message": "Property getters are not allowed" },
+      {
+        "selector": "LabeledStatement",
+        "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+      },
+      {
+        "selector": "WithStatement",
+        "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+      }
+    ],
+    "no-shadow": "warn",
+    "no-trailing-spaces": "error",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true, "allowAfterSuper": true }],
+    "no-useless-escape": "off",
+    "one-var": ["error", "never"],
+    "padded-blocks": ["error", "never"],
+    "padding-line-between-statements": ["error", { "blankLine": "always", "prev": "*", "next": "return" }],
+    "prefer-destructuring": "off",
+    "rest-spread-spacing": ["error", "never"],
+
+    "import/prefer-default-export": "off",
+
+    "react/no-array-index-key": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prefer-es6-class": ["error", "always"],
+    "react/require-default-props": "off",
+    "react/sort-comp": [
+      "error",
+      {
+        "order": ["static-methods", "lifecycle", "everything-else", "private", "listeners", "rendering"],
+        "groups": {
+          "lifecycle": [
+            "displayName",
+            "propTypes",
+            "defaultProps",
+            "contextTypes",
+            "childContextTypes",
+            "mixins",
+            "statics",
+            "state",
+            "getDefaultProps",
+            "getDerivedStateFromProps",
+            "getInitialState",
+            "constructor",
+            "getChildContext",
+            "componentWillMount",
+            "UNSAFE_componentWillMount",
+            "componentDidMount",
+            "componentWillReceiveProps",
+            "UNSAFE_componentWillReceiveProps",
+            "shouldComponentUpdate",
+            "componentWillUpdate",
+            "UNSAFE_componentWillUpdate",
+            "getSnapshotBeforeUpdate",
+            "componentDidUpdate",
+            "componentDidCatch",
+            "componentWillUnmount"
+          ],
+          "rendering": ["/^render.+$/", "render"],
+          "listeners": ["/^_on[A-Z]\\w*$/", "/^_onRef[A-Z]\\w*$/"],
+          "private": ["/^_\\w+"]
+        }
+      }
+    ],
+    "react/jsx-handler-names": [
+      "error",
+      {
+        "eventHandlerPrefix": "_on",
+        "eventHandlerPropPrefix": "(on|ref|inner)"
+      }
+    ],
+    "react/jsx-key": "error",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-useless-path-segments": "off"
+  }
+}
