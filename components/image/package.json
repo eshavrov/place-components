@@ -1,0 +1,19 @@
+{
+  "name": "image.component",
+  "version": "0.1.0",
+  "repository": "git@github.com:eshavrov/place-components.git",
+  "description": "Image Component",
+  "main": "src/index.js",
+  "keywords": [
+    "ui",
+    "image"
+  ],
+  "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "react-ink": "^6.4.0",
+    "styled-components": "^4.1.3"
+  }
+}
