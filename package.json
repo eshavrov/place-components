@@ -4,6 +4,8 @@
   "repository": "git@github.com:eshavrov/place-components.git",
   "private": true,
   "scripts": {
+    "start": "concurrently --kill-others \"yarn start:images\" \"yarn dev\"",
+    "start:images": "node serverImages/server.js",
     "dev": "yarn run storybook",
     "build": "yarn run build-storybook",
     "storybook": "start-storybook -p 9009 -s public",
@@ -23,9 +25,11 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "express": "^4.16.4",
     "react": "16.8.1",
     "react-dom": "16.8.1",
     "react-ink": "^6.4.0",
+    "sharp": "^0.21.3",
     "styled-components": "4.1.3",
     "swiper": "^4.4.6"
   },
@@ -41,6 +45,7 @@
     "babel-loader": "8.0.5",
     "babel-runtime": "6.26.0",
     "babel7-jest": "1.0.1",
+    "concurrently": "^4.1.0",
     "css-loader": "2.1.0",
     "eslint": "5.13.0",
     "eslint-config-airbnb": "17.1.0",
