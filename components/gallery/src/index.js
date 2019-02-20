@@ -2,7 +2,26 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Swiper from 'swiper';
 
-import { Container } from './styles';
+import { Container, Image } from './styles';
+
+const DIMENSIONS = [
+  {
+    maxHeight: 640,
+    height: 456,
+  },
+  {
+    maxHeight: 720,
+    height: 520,
+  },
+  {
+    maxHeight: 960,
+    height: 712,
+  },
+  {
+    maxHeight: 1080,
+    height: 808,
+  },
+];
 
 class Gallery extends Component {
   componentDidMount() {
@@ -10,7 +29,6 @@ class Gallery extends Component {
       speed: 1200,
       spaceBetween: 0,
       touchReleaseOnEdges: true,
-      zoom: true,
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -51,9 +69,7 @@ class Gallery extends Component {
           <div className="swiper-wrapper">
             {data.map((slide, index) => (
               <div key={`slide-${index}`} className="swiper-slide">
-                <div className="swiper-zoom-container">
-                  <img src={slide.src} alt="blah-blah-blah" />
-                </div>
+                <Image src={slide.src} altDescription={slide.title || `slide-image-${index}`} dimensions={DIMENSIONS} />
               </div>
             ))}
           </div>

@@ -5,22 +5,84 @@ import Gallery from '../../../components/gallery';
 
 const MOCK_DATA = [
   {
-    src:
-      'https://a0.muscache.com/4ea/air/v2/pictures/ffdcc8f7-4887-417a-867e-10ab89490ed3.jpg?t=r:w2500-h1500-sfit,e:fjpg-c90',
+    src: 'http://localhost:4321/rooms/0.jpg',
   },
   {
-    src:
-      'https://a0.muscache.com/4ea/air/v2/pictures/98851b0e-4c06-4a7b-82d5-975cacb917c3.jpg?t=r:w2500-h1500-sfit,e:fjpg-c90',
+    src: 'http://localhost:4321/rooms/1.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/2.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/3.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/4.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/5.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/6.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/7.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/8.jpg',
+  },
+  {
+    src: 'http://localhost:4321/rooms/9.jpg',
+  },
+];
+const MOCK_DATA2 = [
+  {
+    src: 'http://localhost:4321/image-0.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-1.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-2.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-3.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-4.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-5.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-6.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-7.jpg',
+  },
+  {
+    src: 'http://localhost:4321/image-8.jpg',
   },
 ];
 
-storiesOf('Gallery', module).add('default', () => (
-  <div
-    style={{
-      width: '100%',
-      height: '400px',
-    }}
-  >
-    <Gallery data={MOCK_DATA} />
-  </div>
-));
+storiesOf('Gallery', module)
+  .add('default', () => (
+    <div
+      style={{
+        width: '100%',
+        height: '400px',
+      }}
+    >
+      <Gallery data={MOCK_DATA} />
+    </div>
+  ))
+  .add('fruits', () => (
+    <div
+      style={{
+        width: '100%',
+        height: '400px',
+      }}
+    >
+      <Gallery data={MOCK_DATA2} />
+    </div>
+  ));
