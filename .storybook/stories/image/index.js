@@ -3,8 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Image from '../../../components/image';
 
-const MOCK_URL_IMAGE =
-  'https://a0.muscache.com/4ea/air/v2/pictures/98851b0e-4c06-4a7b-82d5-975cacb917c3.jpg?t=r:w2500-h1500-sfit,e:fjpg-c90';
+const MOCK_URL_IMAGE = 'http://localhost:4321/rooms/0.jpg';
 
 storiesOf('Image', module)
   .add('default', () => (
