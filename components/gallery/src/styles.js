@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import ImageOwned from '../../image';
+import ImageOwned from '@place-app/image.component';
 
 export const Image = styled(ImageOwned)`
   * img {

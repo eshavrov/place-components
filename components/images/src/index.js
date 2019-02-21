@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import Image from '../../image';
+import Image from '@place-app/image.component';
+
 import { Container, WrapperChunk, ContainerChunk, Tile } from './styles';
 
 class Images extends Component {

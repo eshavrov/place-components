@@ -1,5 +1,5 @@
 {
-  "name": "button.component",
+  "name": "@place-app/button.component",
   "version": "0.1.0",
   "repository": "git@github.com:eshavrov/place-components.git",
   "description": "Button Component",

@@ -1,5 +1,5 @@
 {
-  "name": "image.component",
+  "name": "@place-app/image.component",
   "version": "0.1.0",
   "repository": "git@github.com:eshavrov/place-components.git",
   "description": "Image Component",
@@ -11,6 +11,7 @@
   "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@place-app/constants.ui": "^0.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
     "react-ink": "^6.4.0",

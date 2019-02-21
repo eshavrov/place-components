@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { BREAKPOINTS } from '../../constants.ui';
+import { BREAKPOINTS } from '@place-app/constants.ui';
 
 const S = 8;
 
@@ -19,7 +19,6 @@ export const WrapperChunk = styled.div`
   margin: 0 0 ${S}px;
   @media only screen and (max-width: ${BREAKPOINTS.MOBILE.MAX}px) {
     padding-bottom: 0;
-    /* margin: 0 0 ${S / 2}px; */
     margin: 0;
   }
 `;
@@ -45,9 +44,6 @@ export const Tile = styled.div`
     height: 100%;
     margin: 0 ${S / 2}px;
     @media only screen and (max-width: ${BREAKPOINTS.MOBILE.MAX}px) {
-      /* width: 100%;
-      height: 50%;
-      margin: 4px; */
       margin: 0 0 ${S}px;
       height: 60vw;
     }

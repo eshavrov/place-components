@@ -1,16 +1,18 @@
 {
-  "name": "mosaic.component",
+  "name": "@place-app/images.component",
   "version": "0.1.0",
   "repository": "git@github.com:eshavrov/place-components.git",
-  "description": "Mosaic Images Component",
+  "description": "Images Component",
   "main": "src/index.js",
   "keywords": [
     "ui",
-    "mosaic"
+    "images"
   ],
   "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@place-app/constants.ui": "^0.1.0",
+    "@place-app/image.component": "^0.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
     "styled-components": "^4.1.3"
