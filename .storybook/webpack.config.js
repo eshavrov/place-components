@@ -1,8 +1,20 @@
+const path = require('path');
 const postCSSLoaderOptions = require('./postCSSLoaderOptions');
 
 module.exports = {
   module: {
     rules: [
+      {
+        test: /\.svg$/,
+        loader: 'svg-sprite-loader',
+        include: [path.resolve(__dirname, '../assets/icons')],
+        options: {
+          extract: false,
+          runtimeCompat: true,
+          esModule: false,
+          spriteFilename: 'icons.svg',
+        },
+      },
       {
         test: /\.css$/,
         use: [

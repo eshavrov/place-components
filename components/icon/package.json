@@ -1,0 +1,17 @@
+{
+  "name": "@place-app/icon.component",
+  "version": "0.1.0",
+  "repository": "git@github.com:eshavrov/place-components.git",
+  "description": "Icon Component",
+  "main": "src/index.js",
+  "keywords": [
+    "ui",
+    "icon"
+  ],
+  "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1"
+  }
+}
