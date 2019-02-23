@@ -1,0 +1,20 @@
+{
+  "name": "@place-app/collapsible.component",
+  "version": "0.1.0",
+  "repository": "git@github.com:eshavrov/place-components.git",
+  "description": "collapsible Component",
+  "main": "src/index.js",
+  "keywords": [
+    "ui",
+    "button"
+  ],
+  "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@place-app/icon.component": "^0.1.0",
+    "lodash.isequal": "^4.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "styled-components": "^4.1.3"
+  }
+}

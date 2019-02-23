@@ -1090,6 +1090,11 @@
   resolved "https://registry.yarnpkg.com/@place-app/constants.ui/-/constants.ui-0.1.0.tgz#0d9af4ec463bd6aeea6bf3ce00513472d573b35a"
   integrity sha512-uLN37caGlKbK5Na2oq5Ps0EP8025AX77IF80tQRFYxY1MhV7jcOKwQHRvo42zRuW5BkJ8bpqrxKxwRIw3b6T6g==
 
+"@place-app/icon.component@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@place-app/icon.component/-/icon.component-0.1.0.tgz#4192618fa9d44af62ad611a16dd30d8735abbadf"
+  integrity sha512-bigz+o6kxI6woWXe2eeMmp6pLrh3dVnmLpzSvh+dTbZjbM1QN2vOAIoAojnH/5ig13+iE6MXgBGq6VnU7nDIgw==
+
 "@place-app/image.component@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@place-app/image.component/-/image.component-0.1.0.tgz#94f521e6982a6d41ac6bf6a5aca0e477985fb016"
@@ -7290,6 +7295,11 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.isplainobject@^4.0.6:
   version "4.0.6"

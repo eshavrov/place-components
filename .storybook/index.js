@@ -7,6 +7,7 @@ import './stories/image';
 import './stories/images';
 import './stories/gallery';
 import './stories/icon';
+import './stories/collapsible';
 
 const svgFiles = require.context('../assets/icons', true, /\.svg$/);
 svgFiles.keys().forEach(key => svgFiles(key));
