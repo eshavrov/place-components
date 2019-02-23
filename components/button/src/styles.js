@@ -5,6 +5,7 @@ export const Container = styled.button`
   display: inline-block;
   padding: 8px 17px;
   margin: 0px;
+  margin: 0 6px 8px 0;
   background: #ddd;
   border: none;
   border-radius: 3px;
@@ -28,6 +29,9 @@ export const Container = styled.button`
     background-color: #eee;
     box-shadow: none;
     cursor: default;
+  }
+  :focus {
+    box-shadow: 0 0 0 2px #55c6d6;
   }
 `;
 
