@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "lint": "yarn run lint:js && yarn run lint:css",
-    "lint:js": "eslint --ext .js **/src/**/*.js **/.storybook/stories/**/*.js",
+    "lint:js": "eslint --ext .js **/src/**/*.js",
     "lint:css": "stylelint **/*.js",
     "test": "jest --passWithNoTests"
   },
@@ -30,6 +30,7 @@
     "@place-app/image.component": "^0.1.0",
     "express": "^4.16.4",
     "lodash.isequal": "^4.5.0",
+    "lodash.omit": "^4.5.0",
     "react": "16.8.1",
     "react-dom": "16.8.1",
     "react-ink": "^6.4.0",

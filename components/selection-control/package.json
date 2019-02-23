@@ -1,0 +1,23 @@
+{
+  "name": "@place-app/selection-control.component",
+  "version": "0.1.0",
+  "repository": "git@github.com:eshavrov/place-components.git",
+  "description": "Selection Control Component",
+  "main": "src/index.js",
+  "keywords": [
+    "ui",
+    "control",
+    "checkbox",
+    "radio"
+  ],
+  "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "lodash.isequal": "^4.5.0",
+    "lodash.omit": "^4.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "react-ink": "^6.4.0",
+    "styled-components": "^4.1.3"
+  }
+}
