@@ -13,3 +13,7 @@ yarn
 yarn start
 
 ```
+
+```
+npm publish --access=public
+```
