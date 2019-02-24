@@ -9,6 +9,7 @@ import './stories/gallery';
 import './stories/icon';
 import './stories/collapsible';
 import './stories/selection-control';
+import './stories/text-field';
 
 const svgFiles = require.context('../assets/icons', true, /\.svg$/);
 svgFiles.keys().forEach(key => svgFiles(key));
